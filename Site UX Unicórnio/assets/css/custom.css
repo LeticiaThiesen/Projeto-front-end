@@ -1,0 +1,301 @@
+/***********************************
+	Filename: custom.css
+	Author: Letícia Cristina Thiesen
+	Date: 27/11/2023
+
+	Índice
+
+	0. Resert
+	1. General
+	2. Header
+	3. Cities
+	4. Table of contents
+	5. Stats
+	6. Footer
+************************************/
+
+/***********************************
+0. Reset
+************************************/
+
+/***********************************
+1. General
+************************************/
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #60495f;
+
+
+}
+
+::selection{
+	background: #ffee58;
+	color: #ff00af;
+}
+
+h1{
+	font-size: 48px;
+	line-height: 120%;
+	/*margin-top: 150px;*/
+	font-weight: 600;
+
+
+}
+
+h4{
+	font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: left;
+    color: #ff00af;
+    margin-bottom: 32px;
+
+}
+
+h5{
+	font-size: 16px;
+	line-height: 150%;
+	font-weight: 400;
+	margin-bottom: 3px;
+
+}
+
+p{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #60495f;
+
+
+}
+
+
+
+/***********************************
+2. Header
+************************************/
+
+header{
+
+}
+
+header#hero{
+	color: white;
+	background: linear-gradient(135deg, #ac3ecf 0%,#ff00af 100%);
+
+}
+
+header nav{
+	color: white;
+	background: linear-gradient(135deg, #ac3ecf 0%,#ff00af 100%);
+
+	 webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+header#hero-title h1{
+	margin-bottom: -4px;
+	
+}
+
+header#hero-subtitle h5{
+	margin-bottom: 24px;
+	
+}
+#call-to-scroll {
+	color: #ff00af;
+	font-size: 16px;
+	font-weight: 600;
+	
+
+
+}
+
+#call-to-scroll .cta{
+	margin-bottom: -12px;
+	margin-top: 24px;
+
+}
+
+
+
+#call-to-scroll i{
+	font-size: 50px;
+
+
+}
+
+header #background-map{
+	background-image:url(../img/mapa.svg) ;
+	background-repeat: no-repeat;
+	background-repeat-x:no-repear ;
+	background-repeat-y:no-repear ;
+	background-attachment: fixed;
+	background-position: 75%-100px;
+	background-position-x: 75%;
+	background-position-y: -100px;
+
+
+
+}
+
+a.brand-logo{
+	font-size:20px;
+	font-weight: 500;
+
+}
+
+#value-position {
+	height:750px;
+
+
+}
+
+#value-position a {
+	color:#B633BF;
+	font-weight: 600;
+
+}
+
+#value-position .col {
+	padding:0;
+
+
+}
+
+/***********************************
+3. Cities
+***********************************/
+#cities {
+	
+}
+
+#cities-title{
+	
+
+}
+
+.card-action a{
+	background: #fe03b0;
+	color: #fff;
+	font-weight: 400;
+	font-size: 16px;
+
+}
+
+.card-action a:hover{
+	background: #9a259f;
+
+
+}
+
+
+/***********************************
+4. Table of contents
+***********************************/
+#table-of-contents {
+	background: #FFF6FF;
+	padding:24px 0px;
+}
+
+#table-of-contents-title{
+	margin-top: 24px;
+
+}
+
+#table-of-contents-title h4{
+	margin-bottom: -8px;
+
+}
+
+#table-of-contents-subtitle{
+
+	
+}
+
+#table-of-contents-subtitle p{
+	margin-bottom: 32px;
+	
+}
+
+#table-of-contents-contents{
+	background: #fff;
+
+}
+
+.table-of-contents-content-title{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: left;
+	padding: 16px 16px 0 16px;
+
+}
+
+
+
+.table-of-contents-content-title-items{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: left;
+	padding: 0px 16px;
+	margin-left: 32px;
+
+}
+
+.table-of-contents-content-title-items li{
+	padding: 4px 0px;
+
+}
+
+
+/***********************************
+5. Stats
+***********************************/
+#stats {
+	padding: 60px 0px;
+    background: url(../img/stats.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 100px;
+    background-size: 100% auto;
+}
+
+#stats-contents{
+
+
+}
+
+.stats-content-title{
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 90px;
+	color: #fe03b0;
+	text-shadow: 0px 0px 20px #ffffff;
+	padding-top: 32px;
+
+}
+
+.stats-content-subtitle{
+	font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #60495F;
+    padding-bottom: 32px;
+}
+
+
+
+/***********************************
+6. Footer
+***********************************/
+#footer {
+	
+}
+
+.page-footer{
+	background: #9c27b0;
+}
+
