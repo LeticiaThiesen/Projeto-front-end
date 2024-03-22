@@ -1,2 +1,2 @@
 # Projeto-front-end
-Projeto de html e css para colocar em prática o que aprendi no módulo de font-end do curso do UX/UI Design
+Projeto de HTML e CSS com o intuito de aplicar os conhecimentos adquiridos durante o módulo de front-end do curso de UX/UI Design.
